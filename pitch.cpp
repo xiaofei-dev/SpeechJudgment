@@ -64,7 +64,7 @@ BaseFloat NccfToPov(BaseFloat n) {
 
   BaseFloat r = -5.2 + 5.4 * exp(7.5 * (ndash - 1.0)) + 4.8 * ndash -
                 2.0 * exp(-10.0 * ndash) + 4.2 * exp(20.0 * (ndash - 1.0));
-  // r is the approximate log-prob-ratio of voicing, log(p/(1-p)).
+  // r is the approximate log-prob_limit-ratio of voicing, log(p/(1-p)).
   BaseFloat p = 1.0 / (1 + exp(-1.0 * r));
   assert(p - p == 0);  // Check for NaN/inf
   return p;

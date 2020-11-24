@@ -12,4 +12,10 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(
         Pitch
-        main.cpp ${SOURCE_FILES} ${SOURCES} support_functions.cpp resample.cpp)
+        main.cpp
+        pitch.cpp
+        pitch.h
+        complex_defines.h
+        support_functions.cpp
+        support_functions.h
+        resample.cpp resample.h)

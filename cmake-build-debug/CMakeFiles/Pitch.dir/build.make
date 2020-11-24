@@ -102,22 +102,9 @@ CMakeFiles/Pitch.dir/pitch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pitch.dir/pitch.cpp.s"
 	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\Pitch\pitch.cpp -o CMakeFiles\Pitch.dir\pitch.cpp.s
 
-CMakeFiles/Pitch.dir/resample.cpp.obj: CMakeFiles/Pitch.dir/flags.make
-CMakeFiles/Pitch.dir/resample.cpp.obj: ../resample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pitch.dir/resample.cpp.obj"
-	D:\MinGw\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pitch.dir\resample.cpp.obj -c D:\CPP\Pitch\resample.cpp
-
-CMakeFiles/Pitch.dir/resample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pitch.dir/resample.cpp.i"
-	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\Pitch\resample.cpp > CMakeFiles\Pitch.dir\resample.cpp.i
-
-CMakeFiles/Pitch.dir/resample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pitch.dir/resample.cpp.s"
-	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\Pitch\resample.cpp -o CMakeFiles\Pitch.dir\resample.cpp.s
-
 CMakeFiles/Pitch.dir/support_functions.cpp.obj: CMakeFiles/Pitch.dir/flags.make
 CMakeFiles/Pitch.dir/support_functions.cpp.obj: ../support_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Pitch.dir/support_functions.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pitch.dir/support_functions.cpp.obj"
 	D:\MinGw\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pitch.dir\support_functions.cpp.obj -c D:\CPP\Pitch\support_functions.cpp
 
 CMakeFiles/Pitch.dir/support_functions.cpp.i: cmake_force
@@ -128,20 +115,33 @@ CMakeFiles/Pitch.dir/support_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pitch.dir/support_functions.cpp.s"
 	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\Pitch\support_functions.cpp -o CMakeFiles\Pitch.dir\support_functions.cpp.s
 
+CMakeFiles/Pitch.dir/resample.cpp.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/resample.cpp.obj: ../resample.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Pitch.dir/resample.cpp.obj"
+	D:\MinGw\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pitch.dir\resample.cpp.obj -c D:\CPP\Pitch\resample.cpp
+
+CMakeFiles/Pitch.dir/resample.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pitch.dir/resample.cpp.i"
+	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\Pitch\resample.cpp > CMakeFiles\Pitch.dir\resample.cpp.i
+
+CMakeFiles/Pitch.dir/resample.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pitch.dir/resample.cpp.s"
+	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\Pitch\resample.cpp -o CMakeFiles\Pitch.dir\resample.cpp.s
+
 # Object files for target Pitch
 Pitch_OBJECTS = \
 "CMakeFiles/Pitch.dir/main.cpp.obj" \
 "CMakeFiles/Pitch.dir/pitch.cpp.obj" \
-"CMakeFiles/Pitch.dir/resample.cpp.obj" \
-"CMakeFiles/Pitch.dir/support_functions.cpp.obj"
+"CMakeFiles/Pitch.dir/support_functions.cpp.obj" \
+"CMakeFiles/Pitch.dir/resample.cpp.obj"
 
 # External object files for target Pitch
 Pitch_EXTERNAL_OBJECTS =
 
 Pitch.exe: CMakeFiles/Pitch.dir/main.cpp.obj
 Pitch.exe: CMakeFiles/Pitch.dir/pitch.cpp.obj
-Pitch.exe: CMakeFiles/Pitch.dir/resample.cpp.obj
 Pitch.exe: CMakeFiles/Pitch.dir/support_functions.cpp.obj
+Pitch.exe: CMakeFiles/Pitch.dir/resample.cpp.obj
 Pitch.exe: CMakeFiles/Pitch.dir/build.make
 Pitch.exe: CMakeFiles/Pitch.dir/linklibs.rsp
 Pitch.exe: CMakeFiles/Pitch.dir/objects1.rsp
