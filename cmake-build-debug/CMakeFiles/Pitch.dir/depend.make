@@ -9,8 +9,6 @@ CMakeFiles/Pitch.dir/pitch.cpp.obj: ../pitch.h
 CMakeFiles/Pitch.dir/pitch.cpp.obj: ../resample.h
 CMakeFiles/Pitch.dir/pitch.cpp.obj: ../support_functions.h
 
-CMakeFiles/Pitch.dir/pitch_op.cpp.obj: ../pitch_op.cpp
-
 CMakeFiles/Pitch.dir/resample.cpp.obj: ../complex_defines.h
 CMakeFiles/Pitch.dir/resample.cpp.obj: ../resample.cpp
 CMakeFiles/Pitch.dir/resample.cpp.obj: ../resample.h

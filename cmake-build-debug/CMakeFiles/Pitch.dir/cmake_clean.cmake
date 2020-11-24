@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Pitch.dir/main.cpp.obj"
   "CMakeFiles/Pitch.dir/pitch.cpp.obj"
-  "CMakeFiles/Pitch.dir/pitch_op.cpp.obj"
   "CMakeFiles/Pitch.dir/resample.cpp.obj"
   "CMakeFiles/Pitch.dir/support_functions.cpp.obj"
   "Pitch.exe"

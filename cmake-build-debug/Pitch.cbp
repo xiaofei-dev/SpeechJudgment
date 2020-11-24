@@ -92,9 +92,6 @@
 		<Unit filename="D:/CPP/Pitch/pitch.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/pitch_op.cpp">
-			<Option target="Pitch"/>
-		</Unit>
 		<Unit filename="D:/CPP/Pitch/resample.cpp">
 			<Option target="Pitch"/>
 		</Unit>

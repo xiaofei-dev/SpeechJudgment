@@ -196,33 +196,6 @@ pitch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch.cpp.s
 .PHONY : pitch.cpp.s
 
-pitch_op.obj: pitch_op.cpp.obj
-
-.PHONY : pitch_op.obj
-
-# target to build an object file
-pitch_op.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch_op.cpp.obj
-.PHONY : pitch_op.cpp.obj
-
-pitch_op.i: pitch_op.cpp.i
-
-.PHONY : pitch_op.i
-
-# target to preprocess a source file
-pitch_op.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch_op.cpp.i
-.PHONY : pitch_op.cpp.i
-
-pitch_op.s: pitch_op.cpp.s
-
-.PHONY : pitch_op.s
-
-# target to generate assembly for a file
-pitch_op.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch_op.cpp.s
-.PHONY : pitch_op.cpp.s
-
 resample.obj: resample.cpp.obj
 
 .PHONY : resample.obj
@@ -292,9 +265,6 @@ help:
 	@echo ... pitch.obj
 	@echo ... pitch.i
 	@echo ... pitch.s
-	@echo ... pitch_op.obj
-	@echo ... pitch_op.i
-	@echo ... pitch_op.s
 	@echo ... resample.obj
 	@echo ... resample.i
 	@echo ... resample.s
