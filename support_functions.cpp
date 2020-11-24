@@ -701,13 +701,13 @@ int Rand(struct RandomState* state) {
   // On Windows and Cygwin, just call Rand()
   return rand();
 #else
-  if (state) {
+  /*if (state) {
     return rand_r(&(state->seed));
   } else {
     std::lock_guard<std::mutex> lock(_RandMutex);
     return rand();
-  }
-    //return rand();
+  }*/
+    return rand();
 #endif
 }
 
