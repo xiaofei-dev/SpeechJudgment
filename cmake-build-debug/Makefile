@@ -169,86 +169,707 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-pitch.obj: pitch.cpp.obj
+pitch/pitch.obj: pitch/pitch.cpp.obj
 
-.PHONY : pitch.obj
-
-# target to build an object file
-pitch.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch.cpp.obj
-.PHONY : pitch.cpp.obj
-
-pitch.i: pitch.cpp.i
-
-.PHONY : pitch.i
-
-# target to preprocess a source file
-pitch.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch.cpp.i
-.PHONY : pitch.cpp.i
-
-pitch.s: pitch.cpp.s
-
-.PHONY : pitch.s
-
-# target to generate assembly for a file
-pitch.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch.cpp.s
-.PHONY : pitch.cpp.s
-
-resample.obj: resample.cpp.obj
-
-.PHONY : resample.obj
+.PHONY : pitch/pitch.obj
 
 # target to build an object file
-resample.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/resample.cpp.obj
-.PHONY : resample.cpp.obj
+pitch/pitch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch/pitch.cpp.obj
+.PHONY : pitch/pitch.cpp.obj
 
-resample.i: resample.cpp.i
+pitch/pitch.i: pitch/pitch.cpp.i
 
-.PHONY : resample.i
+.PHONY : pitch/pitch.i
 
 # target to preprocess a source file
-resample.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/resample.cpp.i
-.PHONY : resample.cpp.i
+pitch/pitch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch/pitch.cpp.i
+.PHONY : pitch/pitch.cpp.i
 
-resample.s: resample.cpp.s
+pitch/pitch.s: pitch/pitch.cpp.s
 
-.PHONY : resample.s
+.PHONY : pitch/pitch.s
 
 # target to generate assembly for a file
-resample.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/resample.cpp.s
-.PHONY : resample.cpp.s
+pitch/pitch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch/pitch.cpp.s
+.PHONY : pitch/pitch.cpp.s
 
-support_functions.obj: support_functions.cpp.obj
+pitch/resample.obj: pitch/resample.cpp.obj
 
-.PHONY : support_functions.obj
+.PHONY : pitch/resample.obj
 
 # target to build an object file
-support_functions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/support_functions.cpp.obj
-.PHONY : support_functions.cpp.obj
+pitch/resample.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch/resample.cpp.obj
+.PHONY : pitch/resample.cpp.obj
 
-support_functions.i: support_functions.cpp.i
+pitch/resample.i: pitch/resample.cpp.i
 
-.PHONY : support_functions.i
+.PHONY : pitch/resample.i
 
 # target to preprocess a source file
-support_functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/support_functions.cpp.i
-.PHONY : support_functions.cpp.i
+pitch/resample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch/resample.cpp.i
+.PHONY : pitch/resample.cpp.i
 
-support_functions.s: support_functions.cpp.s
+pitch/resample.s: pitch/resample.cpp.s
 
-.PHONY : support_functions.s
+.PHONY : pitch/resample.s
 
 # target to generate assembly for a file
-support_functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/support_functions.cpp.s
-.PHONY : support_functions.cpp.s
+pitch/resample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch/resample.cpp.s
+.PHONY : pitch/resample.cpp.s
+
+pitch/support_functions.obj: pitch/support_functions.cpp.obj
+
+.PHONY : pitch/support_functions.obj
+
+# target to build an object file
+pitch/support_functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch/support_functions.cpp.obj
+.PHONY : pitch/support_functions.cpp.obj
+
+pitch/support_functions.i: pitch/support_functions.cpp.i
+
+.PHONY : pitch/support_functions.i
+
+# target to preprocess a source file
+pitch/support_functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch/support_functions.cpp.i
+.PHONY : pitch/support_functions.cpp.i
+
+pitch/support_functions.s: pitch/support_functions.cpp.s
+
+.PHONY : pitch/support_functions.s
+
+# target to generate assembly for a file
+pitch/support_functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/pitch/support_functions.cpp.s
+.PHONY : pitch/support_functions.cpp.s
+
+webrtc/checks.obj: webrtc/checks.cc.obj
+
+.PHONY : webrtc/checks.obj
+
+# target to build an object file
+webrtc/checks.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/checks.cc.obj
+.PHONY : webrtc/checks.cc.obj
+
+webrtc/checks.i: webrtc/checks.cc.i
+
+.PHONY : webrtc/checks.i
+
+# target to preprocess a source file
+webrtc/checks.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/checks.cc.i
+.PHONY : webrtc/checks.cc.i
+
+webrtc/checks.s: webrtc/checks.cc.s
+
+.PHONY : webrtc/checks.s
+
+# target to generate assembly for a file
+webrtc/checks.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/checks.cc.s
+.PHONY : webrtc/checks.cc.s
+
+webrtc/complex_bit_reverse.obj: webrtc/complex_bit_reverse.c.obj
+
+.PHONY : webrtc/complex_bit_reverse.obj
+
+# target to build an object file
+webrtc/complex_bit_reverse.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/complex_bit_reverse.c.obj
+.PHONY : webrtc/complex_bit_reverse.c.obj
+
+webrtc/complex_bit_reverse.i: webrtc/complex_bit_reverse.c.i
+
+.PHONY : webrtc/complex_bit_reverse.i
+
+# target to preprocess a source file
+webrtc/complex_bit_reverse.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/complex_bit_reverse.c.i
+.PHONY : webrtc/complex_bit_reverse.c.i
+
+webrtc/complex_bit_reverse.s: webrtc/complex_bit_reverse.c.s
+
+.PHONY : webrtc/complex_bit_reverse.s
+
+# target to generate assembly for a file
+webrtc/complex_bit_reverse.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/complex_bit_reverse.c.s
+.PHONY : webrtc/complex_bit_reverse.c.s
+
+webrtc/complex_fft.obj: webrtc/complex_fft.c.obj
+
+.PHONY : webrtc/complex_fft.obj
+
+# target to build an object file
+webrtc/complex_fft.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/complex_fft.c.obj
+.PHONY : webrtc/complex_fft.c.obj
+
+webrtc/complex_fft.i: webrtc/complex_fft.c.i
+
+.PHONY : webrtc/complex_fft.i
+
+# target to preprocess a source file
+webrtc/complex_fft.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/complex_fft.c.i
+.PHONY : webrtc/complex_fft.c.i
+
+webrtc/complex_fft.s: webrtc/complex_fft.c.s
+
+.PHONY : webrtc/complex_fft.s
+
+# target to generate assembly for a file
+webrtc/complex_fft.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/complex_fft.c.s
+.PHONY : webrtc/complex_fft.c.s
+
+webrtc/cross_correlation.obj: webrtc/cross_correlation.c.obj
+
+.PHONY : webrtc/cross_correlation.obj
+
+# target to build an object file
+webrtc/cross_correlation.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/cross_correlation.c.obj
+.PHONY : webrtc/cross_correlation.c.obj
+
+webrtc/cross_correlation.i: webrtc/cross_correlation.c.i
+
+.PHONY : webrtc/cross_correlation.i
+
+# target to preprocess a source file
+webrtc/cross_correlation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/cross_correlation.c.i
+.PHONY : webrtc/cross_correlation.c.i
+
+webrtc/cross_correlation.s: webrtc/cross_correlation.c.s
+
+.PHONY : webrtc/cross_correlation.s
+
+# target to generate assembly for a file
+webrtc/cross_correlation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/cross_correlation.c.s
+.PHONY : webrtc/cross_correlation.c.s
+
+webrtc/division_operations.obj: webrtc/division_operations.c.obj
+
+.PHONY : webrtc/division_operations.obj
+
+# target to build an object file
+webrtc/division_operations.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/division_operations.c.obj
+.PHONY : webrtc/division_operations.c.obj
+
+webrtc/division_operations.i: webrtc/division_operations.c.i
+
+.PHONY : webrtc/division_operations.i
+
+# target to preprocess a source file
+webrtc/division_operations.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/division_operations.c.i
+.PHONY : webrtc/division_operations.c.i
+
+webrtc/division_operations.s: webrtc/division_operations.c.s
+
+.PHONY : webrtc/division_operations.s
+
+# target to generate assembly for a file
+webrtc/division_operations.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/division_operations.c.s
+.PHONY : webrtc/division_operations.c.s
+
+webrtc/dot_product_with_scale.obj: webrtc/dot_product_with_scale.cc.obj
+
+.PHONY : webrtc/dot_product_with_scale.obj
+
+# target to build an object file
+webrtc/dot_product_with_scale.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/dot_product_with_scale.cc.obj
+.PHONY : webrtc/dot_product_with_scale.cc.obj
+
+webrtc/dot_product_with_scale.i: webrtc/dot_product_with_scale.cc.i
+
+.PHONY : webrtc/dot_product_with_scale.i
+
+# target to preprocess a source file
+webrtc/dot_product_with_scale.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/dot_product_with_scale.cc.i
+.PHONY : webrtc/dot_product_with_scale.cc.i
+
+webrtc/dot_product_with_scale.s: webrtc/dot_product_with_scale.cc.s
+
+.PHONY : webrtc/dot_product_with_scale.s
+
+# target to generate assembly for a file
+webrtc/dot_product_with_scale.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/dot_product_with_scale.cc.s
+.PHONY : webrtc/dot_product_with_scale.cc.s
+
+webrtc/downsample_fast.obj: webrtc/downsample_fast.c.obj
+
+.PHONY : webrtc/downsample_fast.obj
+
+# target to build an object file
+webrtc/downsample_fast.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/downsample_fast.c.obj
+.PHONY : webrtc/downsample_fast.c.obj
+
+webrtc/downsample_fast.i: webrtc/downsample_fast.c.i
+
+.PHONY : webrtc/downsample_fast.i
+
+# target to preprocess a source file
+webrtc/downsample_fast.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/downsample_fast.c.i
+.PHONY : webrtc/downsample_fast.c.i
+
+webrtc/downsample_fast.s: webrtc/downsample_fast.c.s
+
+.PHONY : webrtc/downsample_fast.s
+
+# target to generate assembly for a file
+webrtc/downsample_fast.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/downsample_fast.c.s
+.PHONY : webrtc/downsample_fast.c.s
+
+webrtc/energy.obj: webrtc/energy.c.obj
+
+.PHONY : webrtc/energy.obj
+
+# target to build an object file
+webrtc/energy.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/energy.c.obj
+.PHONY : webrtc/energy.c.obj
+
+webrtc/energy.i: webrtc/energy.c.i
+
+.PHONY : webrtc/energy.i
+
+# target to preprocess a source file
+webrtc/energy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/energy.c.i
+.PHONY : webrtc/energy.c.i
+
+webrtc/energy.s: webrtc/energy.c.s
+
+.PHONY : webrtc/energy.s
+
+# target to generate assembly for a file
+webrtc/energy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/energy.c.s
+.PHONY : webrtc/energy.c.s
+
+webrtc/get_scaling_square.obj: webrtc/get_scaling_square.c.obj
+
+.PHONY : webrtc/get_scaling_square.obj
+
+# target to build an object file
+webrtc/get_scaling_square.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/get_scaling_square.c.obj
+.PHONY : webrtc/get_scaling_square.c.obj
+
+webrtc/get_scaling_square.i: webrtc/get_scaling_square.c.i
+
+.PHONY : webrtc/get_scaling_square.i
+
+# target to preprocess a source file
+webrtc/get_scaling_square.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/get_scaling_square.c.i
+.PHONY : webrtc/get_scaling_square.c.i
+
+webrtc/get_scaling_square.s: webrtc/get_scaling_square.c.s
+
+.PHONY : webrtc/get_scaling_square.s
+
+# target to generate assembly for a file
+webrtc/get_scaling_square.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/get_scaling_square.c.s
+.PHONY : webrtc/get_scaling_square.c.s
+
+webrtc/min_max_operations.obj: webrtc/min_max_operations.c.obj
+
+.PHONY : webrtc/min_max_operations.obj
+
+# target to build an object file
+webrtc/min_max_operations.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/min_max_operations.c.obj
+.PHONY : webrtc/min_max_operations.c.obj
+
+webrtc/min_max_operations.i: webrtc/min_max_operations.c.i
+
+.PHONY : webrtc/min_max_operations.i
+
+# target to preprocess a source file
+webrtc/min_max_operations.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/min_max_operations.c.i
+.PHONY : webrtc/min_max_operations.c.i
+
+webrtc/min_max_operations.s: webrtc/min_max_operations.c.s
+
+.PHONY : webrtc/min_max_operations.s
+
+# target to generate assembly for a file
+webrtc/min_max_operations.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/min_max_operations.c.s
+.PHONY : webrtc/min_max_operations.c.s
+
+webrtc/resample_48khz.obj: webrtc/resample_48khz.c.obj
+
+.PHONY : webrtc/resample_48khz.obj
+
+# target to build an object file
+webrtc/resample_48khz.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/resample_48khz.c.obj
+.PHONY : webrtc/resample_48khz.c.obj
+
+webrtc/resample_48khz.i: webrtc/resample_48khz.c.i
+
+.PHONY : webrtc/resample_48khz.i
+
+# target to preprocess a source file
+webrtc/resample_48khz.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/resample_48khz.c.i
+.PHONY : webrtc/resample_48khz.c.i
+
+webrtc/resample_48khz.s: webrtc/resample_48khz.c.s
+
+.PHONY : webrtc/resample_48khz.s
+
+# target to generate assembly for a file
+webrtc/resample_48khz.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/resample_48khz.c.s
+.PHONY : webrtc/resample_48khz.c.s
+
+webrtc/resample_by_2_internal.obj: webrtc/resample_by_2_internal.c.obj
+
+.PHONY : webrtc/resample_by_2_internal.obj
+
+# target to build an object file
+webrtc/resample_by_2_internal.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/resample_by_2_internal.c.obj
+.PHONY : webrtc/resample_by_2_internal.c.obj
+
+webrtc/resample_by_2_internal.i: webrtc/resample_by_2_internal.c.i
+
+.PHONY : webrtc/resample_by_2_internal.i
+
+# target to preprocess a source file
+webrtc/resample_by_2_internal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/resample_by_2_internal.c.i
+.PHONY : webrtc/resample_by_2_internal.c.i
+
+webrtc/resample_by_2_internal.s: webrtc/resample_by_2_internal.c.s
+
+.PHONY : webrtc/resample_by_2_internal.s
+
+# target to generate assembly for a file
+webrtc/resample_by_2_internal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/resample_by_2_internal.c.s
+.PHONY : webrtc/resample_by_2_internal.c.s
+
+webrtc/resample_fractional.obj: webrtc/resample_fractional.c.obj
+
+.PHONY : webrtc/resample_fractional.obj
+
+# target to build an object file
+webrtc/resample_fractional.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/resample_fractional.c.obj
+.PHONY : webrtc/resample_fractional.c.obj
+
+webrtc/resample_fractional.i: webrtc/resample_fractional.c.i
+
+.PHONY : webrtc/resample_fractional.i
+
+# target to preprocess a source file
+webrtc/resample_fractional.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/resample_fractional.c.i
+.PHONY : webrtc/resample_fractional.c.i
+
+webrtc/resample_fractional.s: webrtc/resample_fractional.c.s
+
+.PHONY : webrtc/resample_fractional.s
+
+# target to generate assembly for a file
+webrtc/resample_fractional.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/resample_fractional.c.s
+.PHONY : webrtc/resample_fractional.c.s
+
+webrtc/spl_init.obj: webrtc/spl_init.c.obj
+
+.PHONY : webrtc/spl_init.obj
+
+# target to build an object file
+webrtc/spl_init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/spl_init.c.obj
+.PHONY : webrtc/spl_init.c.obj
+
+webrtc/spl_init.i: webrtc/spl_init.c.i
+
+.PHONY : webrtc/spl_init.i
+
+# target to preprocess a source file
+webrtc/spl_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/spl_init.c.i
+.PHONY : webrtc/spl_init.c.i
+
+webrtc/spl_init.s: webrtc/spl_init.c.s
+
+.PHONY : webrtc/spl_init.s
+
+# target to generate assembly for a file
+webrtc/spl_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/spl_init.c.s
+.PHONY : webrtc/spl_init.c.s
+
+webrtc/spl_inl.obj: webrtc/spl_inl.c.obj
+
+.PHONY : webrtc/spl_inl.obj
+
+# target to build an object file
+webrtc/spl_inl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/spl_inl.c.obj
+.PHONY : webrtc/spl_inl.c.obj
+
+webrtc/spl_inl.i: webrtc/spl_inl.c.i
+
+.PHONY : webrtc/spl_inl.i
+
+# target to preprocess a source file
+webrtc/spl_inl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/spl_inl.c.i
+.PHONY : webrtc/spl_inl.c.i
+
+webrtc/spl_inl.s: webrtc/spl_inl.c.s
+
+.PHONY : webrtc/spl_inl.s
+
+# target to generate assembly for a file
+webrtc/spl_inl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/spl_inl.c.s
+.PHONY : webrtc/spl_inl.c.s
+
+webrtc/spl_sqrt.obj: webrtc/spl_sqrt.c.obj
+
+.PHONY : webrtc/spl_sqrt.obj
+
+# target to build an object file
+webrtc/spl_sqrt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/spl_sqrt.c.obj
+.PHONY : webrtc/spl_sqrt.c.obj
+
+webrtc/spl_sqrt.i: webrtc/spl_sqrt.c.i
+
+.PHONY : webrtc/spl_sqrt.i
+
+# target to preprocess a source file
+webrtc/spl_sqrt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/spl_sqrt.c.i
+.PHONY : webrtc/spl_sqrt.c.i
+
+webrtc/spl_sqrt.s: webrtc/spl_sqrt.c.s
+
+.PHONY : webrtc/spl_sqrt.s
+
+# target to generate assembly for a file
+webrtc/spl_sqrt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/spl_sqrt.c.s
+.PHONY : webrtc/spl_sqrt.c.s
+
+webrtc/spl_sqrt_floor.obj: webrtc/spl_sqrt_floor.c.obj
+
+.PHONY : webrtc/spl_sqrt_floor.obj
+
+# target to build an object file
+webrtc/spl_sqrt_floor.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/spl_sqrt_floor.c.obj
+.PHONY : webrtc/spl_sqrt_floor.c.obj
+
+webrtc/spl_sqrt_floor.i: webrtc/spl_sqrt_floor.c.i
+
+.PHONY : webrtc/spl_sqrt_floor.i
+
+# target to preprocess a source file
+webrtc/spl_sqrt_floor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/spl_sqrt_floor.c.i
+.PHONY : webrtc/spl_sqrt_floor.c.i
+
+webrtc/spl_sqrt_floor.s: webrtc/spl_sqrt_floor.c.s
+
+.PHONY : webrtc/spl_sqrt_floor.s
+
+# target to generate assembly for a file
+webrtc/spl_sqrt_floor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/spl_sqrt_floor.c.s
+.PHONY : webrtc/spl_sqrt_floor.c.s
+
+webrtc/vad_core.obj: webrtc/vad_core.c.obj
+
+.PHONY : webrtc/vad_core.obj
+
+# target to build an object file
+webrtc/vad_core.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vad_core.c.obj
+.PHONY : webrtc/vad_core.c.obj
+
+webrtc/vad_core.i: webrtc/vad_core.c.i
+
+.PHONY : webrtc/vad_core.i
+
+# target to preprocess a source file
+webrtc/vad_core.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vad_core.c.i
+.PHONY : webrtc/vad_core.c.i
+
+webrtc/vad_core.s: webrtc/vad_core.c.s
+
+.PHONY : webrtc/vad_core.s
+
+# target to generate assembly for a file
+webrtc/vad_core.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vad_core.c.s
+.PHONY : webrtc/vad_core.c.s
+
+webrtc/vad_filterbank.obj: webrtc/vad_filterbank.c.obj
+
+.PHONY : webrtc/vad_filterbank.obj
+
+# target to build an object file
+webrtc/vad_filterbank.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vad_filterbank.c.obj
+.PHONY : webrtc/vad_filterbank.c.obj
+
+webrtc/vad_filterbank.i: webrtc/vad_filterbank.c.i
+
+.PHONY : webrtc/vad_filterbank.i
+
+# target to preprocess a source file
+webrtc/vad_filterbank.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vad_filterbank.c.i
+.PHONY : webrtc/vad_filterbank.c.i
+
+webrtc/vad_filterbank.s: webrtc/vad_filterbank.c.s
+
+.PHONY : webrtc/vad_filterbank.s
+
+# target to generate assembly for a file
+webrtc/vad_filterbank.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vad_filterbank.c.s
+.PHONY : webrtc/vad_filterbank.c.s
+
+webrtc/vad_gmm.obj: webrtc/vad_gmm.c.obj
+
+.PHONY : webrtc/vad_gmm.obj
+
+# target to build an object file
+webrtc/vad_gmm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vad_gmm.c.obj
+.PHONY : webrtc/vad_gmm.c.obj
+
+webrtc/vad_gmm.i: webrtc/vad_gmm.c.i
+
+.PHONY : webrtc/vad_gmm.i
+
+# target to preprocess a source file
+webrtc/vad_gmm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vad_gmm.c.i
+.PHONY : webrtc/vad_gmm.c.i
+
+webrtc/vad_gmm.s: webrtc/vad_gmm.c.s
+
+.PHONY : webrtc/vad_gmm.s
+
+# target to generate assembly for a file
+webrtc/vad_gmm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vad_gmm.c.s
+.PHONY : webrtc/vad_gmm.c.s
+
+webrtc/vad_sp.obj: webrtc/vad_sp.c.obj
+
+.PHONY : webrtc/vad_sp.obj
+
+# target to build an object file
+webrtc/vad_sp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vad_sp.c.obj
+.PHONY : webrtc/vad_sp.c.obj
+
+webrtc/vad_sp.i: webrtc/vad_sp.c.i
+
+.PHONY : webrtc/vad_sp.i
+
+# target to preprocess a source file
+webrtc/vad_sp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vad_sp.c.i
+.PHONY : webrtc/vad_sp.c.i
+
+webrtc/vad_sp.s: webrtc/vad_sp.c.s
+
+.PHONY : webrtc/vad_sp.s
+
+# target to generate assembly for a file
+webrtc/vad_sp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vad_sp.c.s
+.PHONY : webrtc/vad_sp.c.s
+
+webrtc/vector_scaling_operations.obj: webrtc/vector_scaling_operations.c.obj
+
+.PHONY : webrtc/vector_scaling_operations.obj
+
+# target to build an object file
+webrtc/vector_scaling_operations.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vector_scaling_operations.c.obj
+.PHONY : webrtc/vector_scaling_operations.c.obj
+
+webrtc/vector_scaling_operations.i: webrtc/vector_scaling_operations.c.i
+
+.PHONY : webrtc/vector_scaling_operations.i
+
+# target to preprocess a source file
+webrtc/vector_scaling_operations.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vector_scaling_operations.c.i
+.PHONY : webrtc/vector_scaling_operations.c.i
+
+webrtc/vector_scaling_operations.s: webrtc/vector_scaling_operations.c.s
+
+.PHONY : webrtc/vector_scaling_operations.s
+
+# target to generate assembly for a file
+webrtc/vector_scaling_operations.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/vector_scaling_operations.c.s
+.PHONY : webrtc/vector_scaling_operations.c.s
+
+webrtc/webrtc_vad.obj: webrtc/webrtc_vad.c.obj
+
+.PHONY : webrtc/webrtc_vad.obj
+
+# target to build an object file
+webrtc/webrtc_vad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/webrtc_vad.c.obj
+.PHONY : webrtc/webrtc_vad.c.obj
+
+webrtc/webrtc_vad.i: webrtc/webrtc_vad.c.i
+
+.PHONY : webrtc/webrtc_vad.i
+
+# target to preprocess a source file
+webrtc/webrtc_vad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/webrtc_vad.c.i
+.PHONY : webrtc/webrtc_vad.c.i
+
+webrtc/webrtc_vad.s: webrtc/webrtc_vad.c.s
+
+.PHONY : webrtc/webrtc_vad.s
+
+# target to generate assembly for a file
+webrtc/webrtc_vad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/webrtc/webrtc_vad.c.s
+.PHONY : webrtc/webrtc_vad.c.s
 
 # Help Target
 help:
@@ -262,15 +883,84 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... pitch.obj
-	@echo ... pitch.i
-	@echo ... pitch.s
-	@echo ... resample.obj
-	@echo ... resample.i
-	@echo ... resample.s
-	@echo ... support_functions.obj
-	@echo ... support_functions.i
-	@echo ... support_functions.s
+	@echo ... pitch/pitch.obj
+	@echo ... pitch/pitch.i
+	@echo ... pitch/pitch.s
+	@echo ... pitch/resample.obj
+	@echo ... pitch/resample.i
+	@echo ... pitch/resample.s
+	@echo ... pitch/support_functions.obj
+	@echo ... pitch/support_functions.i
+	@echo ... pitch/support_functions.s
+	@echo ... webrtc/checks.obj
+	@echo ... webrtc/checks.i
+	@echo ... webrtc/checks.s
+	@echo ... webrtc/complex_bit_reverse.obj
+	@echo ... webrtc/complex_bit_reverse.i
+	@echo ... webrtc/complex_bit_reverse.s
+	@echo ... webrtc/complex_fft.obj
+	@echo ... webrtc/complex_fft.i
+	@echo ... webrtc/complex_fft.s
+	@echo ... webrtc/cross_correlation.obj
+	@echo ... webrtc/cross_correlation.i
+	@echo ... webrtc/cross_correlation.s
+	@echo ... webrtc/division_operations.obj
+	@echo ... webrtc/division_operations.i
+	@echo ... webrtc/division_operations.s
+	@echo ... webrtc/dot_product_with_scale.obj
+	@echo ... webrtc/dot_product_with_scale.i
+	@echo ... webrtc/dot_product_with_scale.s
+	@echo ... webrtc/downsample_fast.obj
+	@echo ... webrtc/downsample_fast.i
+	@echo ... webrtc/downsample_fast.s
+	@echo ... webrtc/energy.obj
+	@echo ... webrtc/energy.i
+	@echo ... webrtc/energy.s
+	@echo ... webrtc/get_scaling_square.obj
+	@echo ... webrtc/get_scaling_square.i
+	@echo ... webrtc/get_scaling_square.s
+	@echo ... webrtc/min_max_operations.obj
+	@echo ... webrtc/min_max_operations.i
+	@echo ... webrtc/min_max_operations.s
+	@echo ... webrtc/resample_48khz.obj
+	@echo ... webrtc/resample_48khz.i
+	@echo ... webrtc/resample_48khz.s
+	@echo ... webrtc/resample_by_2_internal.obj
+	@echo ... webrtc/resample_by_2_internal.i
+	@echo ... webrtc/resample_by_2_internal.s
+	@echo ... webrtc/resample_fractional.obj
+	@echo ... webrtc/resample_fractional.i
+	@echo ... webrtc/resample_fractional.s
+	@echo ... webrtc/spl_init.obj
+	@echo ... webrtc/spl_init.i
+	@echo ... webrtc/spl_init.s
+	@echo ... webrtc/spl_inl.obj
+	@echo ... webrtc/spl_inl.i
+	@echo ... webrtc/spl_inl.s
+	@echo ... webrtc/spl_sqrt.obj
+	@echo ... webrtc/spl_sqrt.i
+	@echo ... webrtc/spl_sqrt.s
+	@echo ... webrtc/spl_sqrt_floor.obj
+	@echo ... webrtc/spl_sqrt_floor.i
+	@echo ... webrtc/spl_sqrt_floor.s
+	@echo ... webrtc/vad_core.obj
+	@echo ... webrtc/vad_core.i
+	@echo ... webrtc/vad_core.s
+	@echo ... webrtc/vad_filterbank.obj
+	@echo ... webrtc/vad_filterbank.i
+	@echo ... webrtc/vad_filterbank.s
+	@echo ... webrtc/vad_gmm.obj
+	@echo ... webrtc/vad_gmm.i
+	@echo ... webrtc/vad_gmm.s
+	@echo ... webrtc/vad_sp.obj
+	@echo ... webrtc/vad_sp.i
+	@echo ... webrtc/vad_sp.s
+	@echo ... webrtc/vector_scaling_operations.obj
+	@echo ... webrtc/vector_scaling_operations.i
+	@echo ... webrtc/vector_scaling_operations.s
+	@echo ... webrtc/webrtc_vad.obj
+	@echo ... webrtc/webrtc_vad.i
+	@echo ... webrtc/webrtc_vad.s
 .PHONY : help
 
 

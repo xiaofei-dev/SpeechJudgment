@@ -8,8 +8,8 @@
 #include <stdio.h>
 #include <sstream>
 #include<fstream>
-#include "pitch.h"
-#include "support_functions.h"
+#include "pitch/pitch.h"
+#include "pitch/support_functions.h"
 
 using std::vector;
 using namespace std;
@@ -21,7 +21,8 @@ string split(const std::string& s, std::vector<float >& sv, const char* delim);
 vector<vector<float>> process(const std::vector<float>& data);
 
 int main() {
-    txtIO();
+    //txtIO();
+    cout << "hello world" << endl;
     return 0;
 }
 
@@ -132,5 +133,4 @@ void txtIO(){
     }
     inFile.close();
     outFile.close();
-
 }

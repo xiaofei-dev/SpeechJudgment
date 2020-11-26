@@ -89,64 +89,409 @@ CMakeFiles/Pitch.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pitch.dir/main.cpp.s"
 	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\Pitch\main.cpp -o CMakeFiles\Pitch.dir\main.cpp.s
 
-CMakeFiles/Pitch.dir/pitch.cpp.obj: CMakeFiles/Pitch.dir/flags.make
-CMakeFiles/Pitch.dir/pitch.cpp.obj: ../pitch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Pitch.dir/pitch.cpp.obj"
-	D:\MinGw\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pitch.dir\pitch.cpp.obj -c D:\CPP\Pitch\pitch.cpp
+CMakeFiles/Pitch.dir/pitch/pitch.cpp.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/pitch/pitch.cpp.obj: ../pitch/pitch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Pitch.dir/pitch/pitch.cpp.obj"
+	D:\MinGw\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pitch.dir\pitch\pitch.cpp.obj -c D:\CPP\Pitch\pitch\pitch.cpp
 
-CMakeFiles/Pitch.dir/pitch.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pitch.dir/pitch.cpp.i"
-	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\Pitch\pitch.cpp > CMakeFiles\Pitch.dir\pitch.cpp.i
+CMakeFiles/Pitch.dir/pitch/pitch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pitch.dir/pitch/pitch.cpp.i"
+	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\Pitch\pitch\pitch.cpp > CMakeFiles\Pitch.dir\pitch\pitch.cpp.i
 
-CMakeFiles/Pitch.dir/pitch.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pitch.dir/pitch.cpp.s"
-	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\Pitch\pitch.cpp -o CMakeFiles\Pitch.dir\pitch.cpp.s
+CMakeFiles/Pitch.dir/pitch/pitch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pitch.dir/pitch/pitch.cpp.s"
+	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\Pitch\pitch\pitch.cpp -o CMakeFiles\Pitch.dir\pitch\pitch.cpp.s
 
-CMakeFiles/Pitch.dir/support_functions.cpp.obj: CMakeFiles/Pitch.dir/flags.make
-CMakeFiles/Pitch.dir/support_functions.cpp.obj: ../support_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pitch.dir/support_functions.cpp.obj"
-	D:\MinGw\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pitch.dir\support_functions.cpp.obj -c D:\CPP\Pitch\support_functions.cpp
+CMakeFiles/Pitch.dir/pitch/support_functions.cpp.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/pitch/support_functions.cpp.obj: ../pitch/support_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pitch.dir/pitch/support_functions.cpp.obj"
+	D:\MinGw\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pitch.dir\pitch\support_functions.cpp.obj -c D:\CPP\Pitch\pitch\support_functions.cpp
 
-CMakeFiles/Pitch.dir/support_functions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pitch.dir/support_functions.cpp.i"
-	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\Pitch\support_functions.cpp > CMakeFiles\Pitch.dir\support_functions.cpp.i
+CMakeFiles/Pitch.dir/pitch/support_functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pitch.dir/pitch/support_functions.cpp.i"
+	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\Pitch\pitch\support_functions.cpp > CMakeFiles\Pitch.dir\pitch\support_functions.cpp.i
 
-CMakeFiles/Pitch.dir/support_functions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pitch.dir/support_functions.cpp.s"
-	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\Pitch\support_functions.cpp -o CMakeFiles\Pitch.dir\support_functions.cpp.s
+CMakeFiles/Pitch.dir/pitch/support_functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pitch.dir/pitch/support_functions.cpp.s"
+	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\Pitch\pitch\support_functions.cpp -o CMakeFiles\Pitch.dir\pitch\support_functions.cpp.s
 
-CMakeFiles/Pitch.dir/resample.cpp.obj: CMakeFiles/Pitch.dir/flags.make
-CMakeFiles/Pitch.dir/resample.cpp.obj: ../resample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Pitch.dir/resample.cpp.obj"
-	D:\MinGw\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pitch.dir\resample.cpp.obj -c D:\CPP\Pitch\resample.cpp
+CMakeFiles/Pitch.dir/pitch/resample.cpp.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/pitch/resample.cpp.obj: ../pitch/resample.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Pitch.dir/pitch/resample.cpp.obj"
+	D:\MinGw\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pitch.dir\pitch\resample.cpp.obj -c D:\CPP\Pitch\pitch\resample.cpp
 
-CMakeFiles/Pitch.dir/resample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pitch.dir/resample.cpp.i"
-	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\Pitch\resample.cpp > CMakeFiles\Pitch.dir\resample.cpp.i
+CMakeFiles/Pitch.dir/pitch/resample.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pitch.dir/pitch/resample.cpp.i"
+	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\Pitch\pitch\resample.cpp > CMakeFiles\Pitch.dir\pitch\resample.cpp.i
 
-CMakeFiles/Pitch.dir/resample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pitch.dir/resample.cpp.s"
-	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\Pitch\resample.cpp -o CMakeFiles\Pitch.dir\resample.cpp.s
+CMakeFiles/Pitch.dir/pitch/resample.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pitch.dir/pitch/resample.cpp.s"
+	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\Pitch\pitch\resample.cpp -o CMakeFiles\Pitch.dir\pitch\resample.cpp.s
+
+CMakeFiles/Pitch.dir/webrtc/checks.cc.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/checks.cc.obj: ../webrtc/checks.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Pitch.dir/webrtc/checks.cc.obj"
+	D:\MinGw\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\checks.cc.obj -c D:\CPP\Pitch\webrtc\checks.cc
+
+CMakeFiles/Pitch.dir/webrtc/checks.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pitch.dir/webrtc/checks.cc.i"
+	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\Pitch\webrtc\checks.cc > CMakeFiles\Pitch.dir\webrtc\checks.cc.i
+
+CMakeFiles/Pitch.dir/webrtc/checks.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pitch.dir/webrtc/checks.cc.s"
+	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\Pitch\webrtc\checks.cc -o CMakeFiles\Pitch.dir\webrtc\checks.cc.s
+
+CMakeFiles/Pitch.dir/webrtc/complex_bit_reverse.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/complex_bit_reverse.c.obj: ../webrtc/complex_bit_reverse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Pitch.dir/webrtc/complex_bit_reverse.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\complex_bit_reverse.c.obj   -c D:\CPP\Pitch\webrtc\complex_bit_reverse.c
+
+CMakeFiles/Pitch.dir/webrtc/complex_bit_reverse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/complex_bit_reverse.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\complex_bit_reverse.c > CMakeFiles\Pitch.dir\webrtc\complex_bit_reverse.c.i
+
+CMakeFiles/Pitch.dir/webrtc/complex_bit_reverse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/complex_bit_reverse.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\complex_bit_reverse.c -o CMakeFiles\Pitch.dir\webrtc\complex_bit_reverse.c.s
+
+CMakeFiles/Pitch.dir/webrtc/complex_fft.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/complex_fft.c.obj: ../webrtc/complex_fft.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Pitch.dir/webrtc/complex_fft.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\complex_fft.c.obj   -c D:\CPP\Pitch\webrtc\complex_fft.c
+
+CMakeFiles/Pitch.dir/webrtc/complex_fft.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/complex_fft.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\complex_fft.c > CMakeFiles\Pitch.dir\webrtc\complex_fft.c.i
+
+CMakeFiles/Pitch.dir/webrtc/complex_fft.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/complex_fft.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\complex_fft.c -o CMakeFiles\Pitch.dir\webrtc\complex_fft.c.s
+
+CMakeFiles/Pitch.dir/webrtc/cross_correlation.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/cross_correlation.c.obj: ../webrtc/cross_correlation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Pitch.dir/webrtc/cross_correlation.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\cross_correlation.c.obj   -c D:\CPP\Pitch\webrtc\cross_correlation.c
+
+CMakeFiles/Pitch.dir/webrtc/cross_correlation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/cross_correlation.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\cross_correlation.c > CMakeFiles\Pitch.dir\webrtc\cross_correlation.c.i
+
+CMakeFiles/Pitch.dir/webrtc/cross_correlation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/cross_correlation.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\cross_correlation.c -o CMakeFiles\Pitch.dir\webrtc\cross_correlation.c.s
+
+CMakeFiles/Pitch.dir/webrtc/division_operations.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/division_operations.c.obj: ../webrtc/division_operations.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Pitch.dir/webrtc/division_operations.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\division_operations.c.obj   -c D:\CPP\Pitch\webrtc\division_operations.c
+
+CMakeFiles/Pitch.dir/webrtc/division_operations.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/division_operations.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\division_operations.c > CMakeFiles\Pitch.dir\webrtc\division_operations.c.i
+
+CMakeFiles/Pitch.dir/webrtc/division_operations.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/division_operations.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\division_operations.c -o CMakeFiles\Pitch.dir\webrtc\division_operations.c.s
+
+CMakeFiles/Pitch.dir/webrtc/dot_product_with_scale.cc.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/dot_product_with_scale.cc.obj: ../webrtc/dot_product_with_scale.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Pitch.dir/webrtc/dot_product_with_scale.cc.obj"
+	D:\MinGw\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\dot_product_with_scale.cc.obj -c D:\CPP\Pitch\webrtc\dot_product_with_scale.cc
+
+CMakeFiles/Pitch.dir/webrtc/dot_product_with_scale.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pitch.dir/webrtc/dot_product_with_scale.cc.i"
+	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPP\Pitch\webrtc\dot_product_with_scale.cc > CMakeFiles\Pitch.dir\webrtc\dot_product_with_scale.cc.i
+
+CMakeFiles/Pitch.dir/webrtc/dot_product_with_scale.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pitch.dir/webrtc/dot_product_with_scale.cc.s"
+	D:\MinGw\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPP\Pitch\webrtc\dot_product_with_scale.cc -o CMakeFiles\Pitch.dir\webrtc\dot_product_with_scale.cc.s
+
+CMakeFiles/Pitch.dir/webrtc/downsample_fast.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/downsample_fast.c.obj: ../webrtc/downsample_fast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Pitch.dir/webrtc/downsample_fast.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\downsample_fast.c.obj   -c D:\CPP\Pitch\webrtc\downsample_fast.c
+
+CMakeFiles/Pitch.dir/webrtc/downsample_fast.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/downsample_fast.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\downsample_fast.c > CMakeFiles\Pitch.dir\webrtc\downsample_fast.c.i
+
+CMakeFiles/Pitch.dir/webrtc/downsample_fast.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/downsample_fast.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\downsample_fast.c -o CMakeFiles\Pitch.dir\webrtc\downsample_fast.c.s
+
+CMakeFiles/Pitch.dir/webrtc/energy.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/energy.c.obj: ../webrtc/energy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Pitch.dir/webrtc/energy.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\energy.c.obj   -c D:\CPP\Pitch\webrtc\energy.c
+
+CMakeFiles/Pitch.dir/webrtc/energy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/energy.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\energy.c > CMakeFiles\Pitch.dir\webrtc\energy.c.i
+
+CMakeFiles/Pitch.dir/webrtc/energy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/energy.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\energy.c -o CMakeFiles\Pitch.dir\webrtc\energy.c.s
+
+CMakeFiles/Pitch.dir/webrtc/get_scaling_square.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/get_scaling_square.c.obj: ../webrtc/get_scaling_square.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Pitch.dir/webrtc/get_scaling_square.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\get_scaling_square.c.obj   -c D:\CPP\Pitch\webrtc\get_scaling_square.c
+
+CMakeFiles/Pitch.dir/webrtc/get_scaling_square.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/get_scaling_square.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\get_scaling_square.c > CMakeFiles\Pitch.dir\webrtc\get_scaling_square.c.i
+
+CMakeFiles/Pitch.dir/webrtc/get_scaling_square.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/get_scaling_square.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\get_scaling_square.c -o CMakeFiles\Pitch.dir\webrtc\get_scaling_square.c.s
+
+CMakeFiles/Pitch.dir/webrtc/min_max_operations.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/min_max_operations.c.obj: ../webrtc/min_max_operations.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Pitch.dir/webrtc/min_max_operations.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\min_max_operations.c.obj   -c D:\CPP\Pitch\webrtc\min_max_operations.c
+
+CMakeFiles/Pitch.dir/webrtc/min_max_operations.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/min_max_operations.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\min_max_operations.c > CMakeFiles\Pitch.dir\webrtc\min_max_operations.c.i
+
+CMakeFiles/Pitch.dir/webrtc/min_max_operations.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/min_max_operations.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\min_max_operations.c -o CMakeFiles\Pitch.dir\webrtc\min_max_operations.c.s
+
+CMakeFiles/Pitch.dir/webrtc/resample_48khz.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/resample_48khz.c.obj: ../webrtc/resample_48khz.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Pitch.dir/webrtc/resample_48khz.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\resample_48khz.c.obj   -c D:\CPP\Pitch\webrtc\resample_48khz.c
+
+CMakeFiles/Pitch.dir/webrtc/resample_48khz.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/resample_48khz.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\resample_48khz.c > CMakeFiles\Pitch.dir\webrtc\resample_48khz.c.i
+
+CMakeFiles/Pitch.dir/webrtc/resample_48khz.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/resample_48khz.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\resample_48khz.c -o CMakeFiles\Pitch.dir\webrtc\resample_48khz.c.s
+
+CMakeFiles/Pitch.dir/webrtc/resample_by_2_internal.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/resample_by_2_internal.c.obj: ../webrtc/resample_by_2_internal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Pitch.dir/webrtc/resample_by_2_internal.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\resample_by_2_internal.c.obj   -c D:\CPP\Pitch\webrtc\resample_by_2_internal.c
+
+CMakeFiles/Pitch.dir/webrtc/resample_by_2_internal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/resample_by_2_internal.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\resample_by_2_internal.c > CMakeFiles\Pitch.dir\webrtc\resample_by_2_internal.c.i
+
+CMakeFiles/Pitch.dir/webrtc/resample_by_2_internal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/resample_by_2_internal.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\resample_by_2_internal.c -o CMakeFiles\Pitch.dir\webrtc\resample_by_2_internal.c.s
+
+CMakeFiles/Pitch.dir/webrtc/resample_fractional.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/resample_fractional.c.obj: ../webrtc/resample_fractional.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Pitch.dir/webrtc/resample_fractional.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\resample_fractional.c.obj   -c D:\CPP\Pitch\webrtc\resample_fractional.c
+
+CMakeFiles/Pitch.dir/webrtc/resample_fractional.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/resample_fractional.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\resample_fractional.c > CMakeFiles\Pitch.dir\webrtc\resample_fractional.c.i
+
+CMakeFiles/Pitch.dir/webrtc/resample_fractional.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/resample_fractional.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\resample_fractional.c -o CMakeFiles\Pitch.dir\webrtc\resample_fractional.c.s
+
+CMakeFiles/Pitch.dir/webrtc/spl_init.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/spl_init.c.obj: ../webrtc/spl_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Pitch.dir/webrtc/spl_init.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\spl_init.c.obj   -c D:\CPP\Pitch\webrtc\spl_init.c
+
+CMakeFiles/Pitch.dir/webrtc/spl_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/spl_init.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\spl_init.c > CMakeFiles\Pitch.dir\webrtc\spl_init.c.i
+
+CMakeFiles/Pitch.dir/webrtc/spl_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/spl_init.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\spl_init.c -o CMakeFiles\Pitch.dir\webrtc\spl_init.c.s
+
+CMakeFiles/Pitch.dir/webrtc/spl_inl.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/spl_inl.c.obj: ../webrtc/spl_inl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Pitch.dir/webrtc/spl_inl.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\spl_inl.c.obj   -c D:\CPP\Pitch\webrtc\spl_inl.c
+
+CMakeFiles/Pitch.dir/webrtc/spl_inl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/spl_inl.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\spl_inl.c > CMakeFiles\Pitch.dir\webrtc\spl_inl.c.i
+
+CMakeFiles/Pitch.dir/webrtc/spl_inl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/spl_inl.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\spl_inl.c -o CMakeFiles\Pitch.dir\webrtc\spl_inl.c.s
+
+CMakeFiles/Pitch.dir/webrtc/spl_sqrt.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/spl_sqrt.c.obj: ../webrtc/spl_sqrt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Pitch.dir/webrtc/spl_sqrt.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\spl_sqrt.c.obj   -c D:\CPP\Pitch\webrtc\spl_sqrt.c
+
+CMakeFiles/Pitch.dir/webrtc/spl_sqrt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/spl_sqrt.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\spl_sqrt.c > CMakeFiles\Pitch.dir\webrtc\spl_sqrt.c.i
+
+CMakeFiles/Pitch.dir/webrtc/spl_sqrt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/spl_sqrt.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\spl_sqrt.c -o CMakeFiles\Pitch.dir\webrtc\spl_sqrt.c.s
+
+CMakeFiles/Pitch.dir/webrtc/spl_sqrt_floor.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/spl_sqrt_floor.c.obj: ../webrtc/spl_sqrt_floor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Pitch.dir/webrtc/spl_sqrt_floor.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\spl_sqrt_floor.c.obj   -c D:\CPP\Pitch\webrtc\spl_sqrt_floor.c
+
+CMakeFiles/Pitch.dir/webrtc/spl_sqrt_floor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/spl_sqrt_floor.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\spl_sqrt_floor.c > CMakeFiles\Pitch.dir\webrtc\spl_sqrt_floor.c.i
+
+CMakeFiles/Pitch.dir/webrtc/spl_sqrt_floor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/spl_sqrt_floor.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\spl_sqrt_floor.c -o CMakeFiles\Pitch.dir\webrtc\spl_sqrt_floor.c.s
+
+CMakeFiles/Pitch.dir/webrtc/vad_core.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/vad_core.c.obj: ../webrtc/vad_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Pitch.dir/webrtc/vad_core.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\vad_core.c.obj   -c D:\CPP\Pitch\webrtc\vad_core.c
+
+CMakeFiles/Pitch.dir/webrtc/vad_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/vad_core.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\vad_core.c > CMakeFiles\Pitch.dir\webrtc\vad_core.c.i
+
+CMakeFiles/Pitch.dir/webrtc/vad_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/vad_core.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\vad_core.c -o CMakeFiles\Pitch.dir\webrtc\vad_core.c.s
+
+CMakeFiles/Pitch.dir/webrtc/vad_filterbank.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/vad_filterbank.c.obj: ../webrtc/vad_filterbank.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Pitch.dir/webrtc/vad_filterbank.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\vad_filterbank.c.obj   -c D:\CPP\Pitch\webrtc\vad_filterbank.c
+
+CMakeFiles/Pitch.dir/webrtc/vad_filterbank.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/vad_filterbank.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\vad_filterbank.c > CMakeFiles\Pitch.dir\webrtc\vad_filterbank.c.i
+
+CMakeFiles/Pitch.dir/webrtc/vad_filterbank.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/vad_filterbank.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\vad_filterbank.c -o CMakeFiles\Pitch.dir\webrtc\vad_filterbank.c.s
+
+CMakeFiles/Pitch.dir/webrtc/vad_gmm.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/vad_gmm.c.obj: ../webrtc/vad_gmm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Pitch.dir/webrtc/vad_gmm.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\vad_gmm.c.obj   -c D:\CPP\Pitch\webrtc\vad_gmm.c
+
+CMakeFiles/Pitch.dir/webrtc/vad_gmm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/vad_gmm.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\vad_gmm.c > CMakeFiles\Pitch.dir\webrtc\vad_gmm.c.i
+
+CMakeFiles/Pitch.dir/webrtc/vad_gmm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/vad_gmm.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\vad_gmm.c -o CMakeFiles\Pitch.dir\webrtc\vad_gmm.c.s
+
+CMakeFiles/Pitch.dir/webrtc/vad_sp.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/vad_sp.c.obj: ../webrtc/vad_sp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Pitch.dir/webrtc/vad_sp.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\vad_sp.c.obj   -c D:\CPP\Pitch\webrtc\vad_sp.c
+
+CMakeFiles/Pitch.dir/webrtc/vad_sp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/vad_sp.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\vad_sp.c > CMakeFiles\Pitch.dir\webrtc\vad_sp.c.i
+
+CMakeFiles/Pitch.dir/webrtc/vad_sp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/vad_sp.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\vad_sp.c -o CMakeFiles\Pitch.dir\webrtc\vad_sp.c.s
+
+CMakeFiles/Pitch.dir/webrtc/vector_scaling_operations.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/vector_scaling_operations.c.obj: ../webrtc/vector_scaling_operations.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Pitch.dir/webrtc/vector_scaling_operations.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\vector_scaling_operations.c.obj   -c D:\CPP\Pitch\webrtc\vector_scaling_operations.c
+
+CMakeFiles/Pitch.dir/webrtc/vector_scaling_operations.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/vector_scaling_operations.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\vector_scaling_operations.c > CMakeFiles\Pitch.dir\webrtc\vector_scaling_operations.c.i
+
+CMakeFiles/Pitch.dir/webrtc/vector_scaling_operations.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/vector_scaling_operations.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\vector_scaling_operations.c -o CMakeFiles\Pitch.dir\webrtc\vector_scaling_operations.c.s
+
+CMakeFiles/Pitch.dir/webrtc/webrtc_vad.c.obj: CMakeFiles/Pitch.dir/flags.make
+CMakeFiles/Pitch.dir/webrtc/webrtc_vad.c.obj: ../webrtc/webrtc_vad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Pitch.dir/webrtc/webrtc_vad.c.obj"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Pitch.dir\webrtc\webrtc_vad.c.obj   -c D:\CPP\Pitch\webrtc\webrtc_vad.c
+
+CMakeFiles/Pitch.dir/webrtc/webrtc_vad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pitch.dir/webrtc/webrtc_vad.c.i"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CPP\Pitch\webrtc\webrtc_vad.c > CMakeFiles\Pitch.dir\webrtc\webrtc_vad.c.i
+
+CMakeFiles/Pitch.dir/webrtc/webrtc_vad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pitch.dir/webrtc/webrtc_vad.c.s"
+	D:\MinGw\mingw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CPP\Pitch\webrtc\webrtc_vad.c -o CMakeFiles\Pitch.dir\webrtc\webrtc_vad.c.s
 
 # Object files for target Pitch
 Pitch_OBJECTS = \
 "CMakeFiles/Pitch.dir/main.cpp.obj" \
-"CMakeFiles/Pitch.dir/pitch.cpp.obj" \
-"CMakeFiles/Pitch.dir/support_functions.cpp.obj" \
-"CMakeFiles/Pitch.dir/resample.cpp.obj"
+"CMakeFiles/Pitch.dir/pitch/pitch.cpp.obj" \
+"CMakeFiles/Pitch.dir/pitch/support_functions.cpp.obj" \
+"CMakeFiles/Pitch.dir/pitch/resample.cpp.obj" \
+"CMakeFiles/Pitch.dir/webrtc/checks.cc.obj" \
+"CMakeFiles/Pitch.dir/webrtc/complex_bit_reverse.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/complex_fft.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/cross_correlation.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/division_operations.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/dot_product_with_scale.cc.obj" \
+"CMakeFiles/Pitch.dir/webrtc/downsample_fast.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/energy.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/get_scaling_square.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/min_max_operations.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/resample_48khz.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/resample_by_2_internal.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/resample_fractional.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/spl_init.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/spl_inl.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/spl_sqrt.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/spl_sqrt_floor.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/vad_core.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/vad_filterbank.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/vad_gmm.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/vad_sp.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/vector_scaling_operations.c.obj" \
+"CMakeFiles/Pitch.dir/webrtc/webrtc_vad.c.obj"
 
 # External object files for target Pitch
 Pitch_EXTERNAL_OBJECTS =
 
 Pitch.exe: CMakeFiles/Pitch.dir/main.cpp.obj
-Pitch.exe: CMakeFiles/Pitch.dir/pitch.cpp.obj
-Pitch.exe: CMakeFiles/Pitch.dir/support_functions.cpp.obj
-Pitch.exe: CMakeFiles/Pitch.dir/resample.cpp.obj
+Pitch.exe: CMakeFiles/Pitch.dir/pitch/pitch.cpp.obj
+Pitch.exe: CMakeFiles/Pitch.dir/pitch/support_functions.cpp.obj
+Pitch.exe: CMakeFiles/Pitch.dir/pitch/resample.cpp.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/checks.cc.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/complex_bit_reverse.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/complex_fft.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/cross_correlation.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/division_operations.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/dot_product_with_scale.cc.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/downsample_fast.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/energy.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/get_scaling_square.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/min_max_operations.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/resample_48khz.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/resample_by_2_internal.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/resample_fractional.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/spl_init.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/spl_inl.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/spl_sqrt.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/spl_sqrt_floor.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/vad_core.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/vad_filterbank.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/vad_gmm.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/vad_sp.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/vector_scaling_operations.c.obj
+Pitch.exe: CMakeFiles/Pitch.dir/webrtc/webrtc_vad.c.obj
 Pitch.exe: CMakeFiles/Pitch.dir/build.make
 Pitch.exe: CMakeFiles/Pitch.dir/linklibs.rsp
 Pitch.exe: CMakeFiles/Pitch.dir/objects1.rsp
 Pitch.exe: CMakeFiles/Pitch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Pitch.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CPP\Pitch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable Pitch.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Pitch.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

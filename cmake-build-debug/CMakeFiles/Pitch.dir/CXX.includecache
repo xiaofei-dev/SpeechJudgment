@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-D:/CPP/Pitch/complex_defines.h
-math.h
--
-
 D:/CPP/Pitch/main.cpp
 iostream
 -
@@ -31,20 +27,16 @@ sstream
 -
 fstream
 -
-pitch.h
-D:/CPP/Pitch/pitch.h
-support_functions.h
-D:/CPP/Pitch/support_functions.h
+pitch/pitch.h
+D:/CPP/Pitch/pitch/pitch.h
+pitch/support_functions.h
+D:/CPP/Pitch/pitch/support_functions.h
 
-D:/CPP/Pitch/pitch.cpp
-algorithm
+D:/CPP/Pitch/pitch/complex_defines.h
+math.h
 -
-limits
--
-pitch.h
-D:/CPP/Pitch/pitch.h
 
-D:/CPP/Pitch/pitch.h
+D:/CPP/Pitch/pitch/pitch.h
 cassert
 -
 cstdlib
@@ -56,11 +48,11 @@ vector
 iostream
 -
 support_functions.h
-D:/CPP/Pitch/support_functions.h
+D:/CPP/Pitch/pitch/support_functions.h
 resample.h
-D:/CPP/Pitch/resample.h
+D:/CPP/Pitch/pitch/resample.h
 
-D:/CPP/Pitch/resample.h
+D:/CPP/Pitch/pitch/resample.h
 cassert
 -
 cstdlib
@@ -74,9 +66,9 @@ vector
 assert.h
 -
 support_functions.h
-D:/CPP/Pitch/support_functions.h
+D:/CPP/Pitch/pitch/support_functions.h
 
-D:/CPP/Pitch/support_functions.h
+D:/CPP/Pitch/pitch/support_functions.h
 stdio.h
 -
 stdlib.h
@@ -96,5 +88,5 @@ memory
 chrono
 -
 complex_defines.h
-D:/CPP/Pitch/complex_defines.h
+D:/CPP/Pitch/pitch/complex_defines.h
 

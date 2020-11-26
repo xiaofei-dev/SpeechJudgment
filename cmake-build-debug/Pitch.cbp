@@ -80,28 +80,160 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CPP/Pitch/complex_defines.h">
-			<Option target="Pitch"/>
-		</Unit>
 		<Unit filename="D:/CPP/Pitch/main.cpp">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/pitch.cpp">
+		<Unit filename="D:/CPP/Pitch/pitch/complex_defines.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/pitch.h">
+		<Unit filename="D:/CPP/Pitch/pitch/pitch.cpp">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/resample.cpp">
+		<Unit filename="D:/CPP/Pitch/pitch/pitch.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/resample.h">
+		<Unit filename="D:/CPP/Pitch/pitch/resample.cpp">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/support_functions.cpp">
+		<Unit filename="D:/CPP/Pitch/pitch/resample.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/support_functions.h">
+		<Unit filename="D:/CPP/Pitch/pitch/support_functions.cpp">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/pitch/support_functions.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/arch.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/checks.cc">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/checks.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/compile_assert_c.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/complex_bit_reverse.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/complex_fft.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/complex_fft_tables.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/cpu_features_wrapper.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/cross_correlation.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/division_operations.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/dot_product_with_scale.cc">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/dot_product_with_scale.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/downsample_fast.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/energy.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/get_scaling_square.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/inline.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/min_max_operations.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/real_fft.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/resample_48khz.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/resample_by_2_internal.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/resample_by_2_internal.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/resample_fractional.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/safe_compare.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/sanitizer.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/signal_processing_library.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/spl_init.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/spl_inl.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/spl_inl.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/spl_sqrt.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/spl_sqrt_floor.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/spl_sqrt_floor.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/type_traits.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/typedefs.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/vad_core.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/vad_core.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/vad_filterbank.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/vad_filterbank.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/vad_gmm.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/vad_gmm.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/vad_sp.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/vad_sp.h">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/vector_scaling_operations.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/webrtc_vad.c">
+			<Option target="Pitch"/>
+		</Unit>
+		<Unit filename="D:/CPP/Pitch/webrtc/webrtc_vad.h">
 			<Option target="Pitch"/>
 		</Unit>
 		<Unit filename="D:/CPP/Pitch/CMakeLists.txt">
