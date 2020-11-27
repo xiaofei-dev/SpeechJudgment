@@ -43,7 +43,6 @@ string split(const std::string& s,
     return res;
 }
 
-
 string vector2string(vector<float> vect){
     std::stringstream ss;
     ss << "[";
@@ -98,10 +97,6 @@ string dimen_vector2string_filter(vector<vector<float>> vect){
 }
 
 vector<vector<float>> process(const std::vector<float>& data){
-//    PyinCpp pyinCpp = PyinCpp(16000, 160, 16);
-//    pyinCpp.setCutOff(0);
-//    pyinCpp.feed(data);
-//    return pyinCpp.getPitches();
     vector<vector<float>> res = vector<vector<float>>();
     delta::PitchExtractionOptions options = delta::PitchExtractionOptions();
     delta::ComputeKaldiPitch(options, data, &res);
