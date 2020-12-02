@@ -1,4 +1,4 @@
-D:\CLion2020_2_4\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\CPP\Pitch
+D:\CLion2020_2_4\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\CPP\SpeechJudgment
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/CPP/Pitch/cmake-build-debug
+-- Build files have been written to: D:/CPP/SpeechJudgment/cmake-build-debug

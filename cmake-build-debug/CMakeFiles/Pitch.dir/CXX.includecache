@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/CPP/Pitch/main.cpp
+D:/CPP/SpeechJudgment/main.cpp
 iostream
 -
 string
@@ -27,16 +27,20 @@ sstream
 -
 fstream
 -
+pitch/complex_defines.h
+D:/CPP/SpeechJudgment/pitch/complex_defines.h
 pitch/pitch.h
-D:/CPP/Pitch/pitch/pitch.h
+D:/CPP/SpeechJudgment/pitch/pitch.h
+pitch/resample.h
+D:/CPP/SpeechJudgment/pitch/resample.h
 pitch/support_functions.h
-D:/CPP/Pitch/pitch/support_functions.h
+D:/CPP/SpeechJudgment/pitch/support_functions.h
 
-D:/CPP/Pitch/pitch/complex_defines.h
+D:/CPP/SpeechJudgment/pitch/complex_defines.h
 math.h
 -
 
-D:/CPP/Pitch/pitch/pitch.h
+D:/CPP/SpeechJudgment/pitch/pitch.h
 cassert
 -
 cstdlib
@@ -48,11 +52,11 @@ vector
 iostream
 -
 support_functions.h
-D:/CPP/Pitch/pitch/support_functions.h
+D:/CPP/SpeechJudgment/pitch/support_functions.h
 resample.h
-D:/CPP/Pitch/pitch/resample.h
+D:/CPP/SpeechJudgment/pitch/resample.h
 
-D:/CPP/Pitch/pitch/resample.h
+D:/CPP/SpeechJudgment/pitch/resample.h
 cassert
 -
 cstdlib
@@ -66,9 +70,9 @@ vector
 assert.h
 -
 support_functions.h
-D:/CPP/Pitch/pitch/support_functions.h
+D:/CPP/SpeechJudgment/pitch/support_functions.h
 
-D:/CPP/Pitch/pitch/support_functions.h
+D:/CPP/SpeechJudgment/pitch/support_functions.h
 stdio.h
 -
 stdlib.h
@@ -88,5 +92,5 @@ memory
 chrono
 -
 complex_defines.h
-D:/CPP/Pitch/pitch/complex_defines.h
+D:/CPP/SpeechJudgment/pitch/complex_defines.h
 

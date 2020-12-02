@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/CPP/Pitch/cmake-build-debug"/>
+				<Option working_dir="D:/CPP/SpeechJudgment/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Pitch">
-				<Option output="D:/CPP/Pitch/cmake-build-debug/Pitch.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CPP/Pitch/cmake-build-debug"/>
+				<Option output="D:/CPP/SpeechJudgment/cmake-build-debug/Pitch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CPP/SpeechJudgment/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="D:/MinGw/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pitch"/>
-					<CompileFile command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pitch"/>
+					<CompileFile command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Pitch/fast">
-				<Option output="D:/CPP/Pitch/cmake-build-debug/Pitch.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CPP/Pitch/cmake-build-debug"/>
+				<Option output="D:/CPP/SpeechJudgment/cmake-build-debug/Pitch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CPP/SpeechJudgment/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,190 +53,190 @@
 					<Add directory="D:/MinGw/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pitch/fast"/>
-					<CompileFile command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pitch/fast"/>
+					<CompileFile command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/CPP/Pitch/cmake-build-debug"/>
+				<Option working_dir="D:/CPP/SpeechJudgment/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/CPP/Pitch/cmake-build-debug"/>
+				<Option working_dir="D:/CPP/SpeechJudgment/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/Pitch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGw/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/CPP/SpeechJudgment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CPP/Pitch/main.cpp">
+		<Unit filename="D:/CPP/SpeechJudgment/main.cpp">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/pitch/complex_defines.h">
+		<Unit filename="D:/CPP/SpeechJudgment/pitch/complex_defines.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/pitch/pitch.cpp">
+		<Unit filename="D:/CPP/SpeechJudgment/pitch/pitch.cpp">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/pitch/pitch.h">
+		<Unit filename="D:/CPP/SpeechJudgment/pitch/pitch.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/pitch/resample.cpp">
+		<Unit filename="D:/CPP/SpeechJudgment/pitch/resample.cpp">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/pitch/resample.h">
+		<Unit filename="D:/CPP/SpeechJudgment/pitch/resample.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/pitch/support_functions.cpp">
+		<Unit filename="D:/CPP/SpeechJudgment/pitch/support_functions.cpp">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/pitch/support_functions.h">
+		<Unit filename="D:/CPP/SpeechJudgment/pitch/support_functions.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/arch.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/arch.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/checks.cc">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/checks.cc">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/checks.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/checks.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/compile_assert_c.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/compile_assert_c.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/complex_bit_reverse.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/complex_bit_reverse.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/complex_fft.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/complex_fft.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/complex_fft_tables.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/complex_fft_tables.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/cpu_features_wrapper.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/cpu_features_wrapper.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/cross_correlation.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/cross_correlation.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/division_operations.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/division_operations.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/dot_product_with_scale.cc">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/dot_product_with_scale.cc">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/dot_product_with_scale.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/dot_product_with_scale.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/downsample_fast.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/downsample_fast.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/energy.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/energy.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/get_scaling_square.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/get_scaling_square.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/inline.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/inline.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/min_max_operations.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/min_max_operations.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/real_fft.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/real_fft.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/resample_48khz.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/resample_48khz.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/resample_by_2_internal.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/resample_by_2_internal.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/resample_by_2_internal.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/resample_by_2_internal.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/resample_fractional.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/resample_fractional.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/safe_compare.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/safe_compare.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/sanitizer.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/sanitizer.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/signal_processing_library.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/signal_processing_library.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/spl_init.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/spl_init.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/spl_inl.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/spl_inl.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/spl_inl.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/spl_inl.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/spl_sqrt.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/spl_sqrt.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/spl_sqrt_floor.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/spl_sqrt_floor.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/spl_sqrt_floor.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/spl_sqrt_floor.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/type_traits.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/type_traits.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/typedefs.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/typedefs.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/vad_core.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/vad_core.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/vad_core.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/vad_core.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/vad_filterbank.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/vad_filterbank.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/vad_filterbank.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/vad_filterbank.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/vad_gmm.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/vad_gmm.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/vad_gmm.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/vad_gmm.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/vad_sp.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/vad_sp.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/vad_sp.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/vad_sp.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/vector_scaling_operations.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/vector_scaling_operations.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/webrtc_vad.c">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/webrtc_vad.c">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/webrtc/webrtc_vad.h">
+		<Unit filename="D:/CPP/SpeechJudgment/webrtc/webrtc_vad.h">
 			<Option target="Pitch"/>
 		</Unit>
-		<Unit filename="D:/CPP/Pitch/CMakeLists.txt">
+		<Unit filename="D:/CPP/SpeechJudgment/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
