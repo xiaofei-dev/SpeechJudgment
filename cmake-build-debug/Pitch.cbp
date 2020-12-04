@@ -83,6 +83,9 @@
 		<Unit filename="D:/CPP/SpeechJudgment/main.cpp">
 			<Option target="Pitch"/>
 		</Unit>
+		<Unit filename="D:/CPP/SpeechJudgment/main_all.cpp">
+			<Option target="Pitch"/>
+		</Unit>
 		<Unit filename="D:/CPP/SpeechJudgment/pitch/complex_defines.h">
 			<Option target="Pitch"/>
 		</Unit>

@@ -169,6 +169,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+main_all.obj: main_all.cpp.obj
+
+.PHONY : main_all.obj
+
+# target to build an object file
+main_all.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/main_all.cpp.obj
+.PHONY : main_all.cpp.obj
+
+main_all.i: main_all.cpp.i
+
+.PHONY : main_all.i
+
+# target to preprocess a source file
+main_all.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/main_all.cpp.i
+.PHONY : main_all.cpp.i
+
+main_all.s: main_all.cpp.s
+
+.PHONY : main_all.s
+
+# target to generate assembly for a file
+main_all.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pitch.dir\build.make CMakeFiles/Pitch.dir/main_all.cpp.s
+.PHONY : main_all.cpp.s
+
 pitch/pitch.obj: pitch/pitch.cpp.obj
 
 .PHONY : pitch/pitch.obj
@@ -883,6 +910,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... main_all.obj
+	@echo ... main_all.i
+	@echo ... main_all.s
 	@echo ... pitch/pitch.obj
 	@echo ... pitch/pitch.i
 	@echo ... pitch/pitch.s

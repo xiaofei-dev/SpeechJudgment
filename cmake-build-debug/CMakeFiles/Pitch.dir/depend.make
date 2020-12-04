@@ -182,6 +182,8 @@ CMakeFiles/Pitch.dir/main.cpp.obj: ../pitch/pitch.h
 CMakeFiles/Pitch.dir/main.cpp.obj: ../pitch/resample.h
 CMakeFiles/Pitch.dir/main.cpp.obj: ../pitch/support_functions.h
 
+CMakeFiles/Pitch.dir/main_all.cpp.obj: ../main_all.cpp
+
 CMakeFiles/Pitch.dir/pitch/pitch.cpp.obj: ../pitch/complex_defines.h
 CMakeFiles/Pitch.dir/pitch/pitch.cpp.obj: ../pitch/pitch.cpp
 CMakeFiles/Pitch.dir/pitch/pitch.cpp.obj: ../pitch/pitch.h

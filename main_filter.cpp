@@ -10,11 +10,11 @@
 #include<fstream>
 #include "pitch/complex_defines.h"
 #include "pitch/pitch.h"
-//#include "pitch/pitch.cpp"
+#include "pitch/pitch.cpp"
 #include "pitch/resample.h"
-//#include "pitch/resample.cpp"
+#include "pitch/resample.cpp"
 #include "pitch/support_functions.h"
-//#include "pitch/support_functions.cpp"
+#include "pitch/support_functions.cpp"
 
 using std::vector;
 using namespace std;
@@ -76,8 +76,8 @@ string dimen_vector2string(vector<vector<float>> vect){
     return s;
 }
 
-//过滤概率
-//float prob_limit = 0.5f;
+//过滤NCCF
+float prob_limit = 0.5f;
 string dimen_vector2string_filterPitch(vector<vector<float>> vect){
     std::stringstream ss;
     for(size_t i = 0; i < vect.size(); ++i){
@@ -85,13 +85,13 @@ string dimen_vector2string_filterPitch(vector<vector<float>> vect){
             ss << ", ";
         }
 
-        /*vector<float> v = vect[i];
+        vector<float> v = vect[i];
         if(v[0] < prob_limit){
             ss << 0;
         } else {
             ss << v[1];
-        }*/
-        ss << vect[i][1];
+        }
+        //ss << vect[i][1];
     }
     std::string s = ss.str();
     return s;
@@ -118,52 +118,25 @@ string dimen_vector2string_filterNCCF(vector<vector<float>> vect){
 
 int number = 0;
 vector<vector<float>> process(const std::vector<float>& data, string name){
-    string info = to_string(number) + " file " + name  + "start";
-    cout << info << endl;
-
     vector<vector<float>> res = vector<vector<float>>();
     delta::PitchExtractionOptions options = delta::PitchExtractionOptions();
     delta::ComputeKaldiPitch(options, data, &res);
     int size = data.size();
     int sizeRes = res.size();
     number++;
+    string info = to_string(number) + " file " + name  + " end";
+    cout << info << endl;
     return res;
 }
 
-
-/*//定位到txt文件的某一行
-void seek_to_line(ifstream & in, int line)
-//将打开的文件in，定位到line行。
-{
-    int i;
-    char buf[1024];
-    in.seekg(0, ios::beg);  //定位到文件开始。
-    for (i = 0; i < line; i++) {
-        in.getline(buf, sizeof(buf));//读取行。
-    }
-}*/
-
-//定位到txt文件的某一行
-void seek_to_line(ifstream &in, int line)
-//将打开的文件in，定位到line行。
-{
-    int i;
-    string s;
-    in.seekg(0, ios::beg);  //定位到文件开始。
-    for (i = 0; i < line; i++) {
-        getline(in, s);//读取行。
-    }
-}
 
 void txtIO(){
     string s;
     //以二进制模式打开 in.txt 文件
     ifstream inFile("D:\\CPP\\SpeechJudgment\\input12_1.txt", ios::in | ios::binary);
 
-    seek_to_line(inFile, 1);
-
     ofstream outFilePitch("D:\\CPP\\SpeechJudgment\\output12_1_Pitch.txt", ios::out | ios::trunc); //利用构造函数创建txt文本，并且打开该文本
-    ofstream outFileNCCF("D:\\CPP\\SpeechJudgment\\output12_1_NCCF.txt", ios::out | ios::trunc); //利用构造函数创建txt文本，并且打开该文本
+//    ofstream outFileNCCF("D:\\CPP\\SpeechJudgment\\output12_1_NCCF.txt", ios::out | ios::trunc); //利用构造函数创建txt文本，并且打开该文本
     //判断文件是否正常打开
     if (!inFile) {
         cout << "file error" << endl;
@@ -177,18 +150,16 @@ void txtIO(){
 //        if (i == 5) break;
         string res = split(s, vect, ",");
         outFilePitch << res << ",";
-        outFileNCCF << res << ",";
+//        outFileNCCF << res << ",";
         vector<vector<float>> dimen_vect = process(vect, res);
         outFilePitch << dimen_vector2string_filterPitch(dimen_vect) << endl;
-        outFileNCCF << dimen_vector2string_filterNCCF(dimen_vect) << endl;
+//        outFileNCCF << dimen_vector2string_filterNCCF(dimen_vect) << endl;
 
-//        outFilePitch << "dimen_vector2string_filterPitch(dimen_vect)" << endl;
-//        outFileNCCF << "dimen_vector2string_filterNCCF(dimen_vect)" << endl;
 //        i++;
 //        outFile << dimen_vector2string(dimen_vect) << endl;
 //        cout << s << endl;
     }
     inFile.close();
     outFilePitch.close();
-    outFileNCCF.close();
+//    outFileNCCF.close();
 }

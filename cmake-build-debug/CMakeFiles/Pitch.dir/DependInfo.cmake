@@ -34,6 +34,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/CPP/SpeechJudgment/main.cpp" "D:/CPP/SpeechJudgment/cmake-build-debug/CMakeFiles/Pitch.dir/main.cpp.obj"
+  "D:/CPP/SpeechJudgment/main_all.cpp" "D:/CPP/SpeechJudgment/cmake-build-debug/CMakeFiles/Pitch.dir/main_all.cpp.obj"
   "D:/CPP/SpeechJudgment/pitch/pitch.cpp" "D:/CPP/SpeechJudgment/cmake-build-debug/CMakeFiles/Pitch.dir/pitch/pitch.cpp.obj"
   "D:/CPP/SpeechJudgment/pitch/resample.cpp" "D:/CPP/SpeechJudgment/cmake-build-debug/CMakeFiles/Pitch.dir/pitch/resample.cpp.obj"
   "D:/CPP/SpeechJudgment/pitch/support_functions.cpp" "D:/CPP/SpeechJudgment/cmake-build-debug/CMakeFiles/Pitch.dir/pitch/support_functions.cpp.obj"

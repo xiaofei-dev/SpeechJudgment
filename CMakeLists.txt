@@ -13,6 +13,8 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(
         Pitch
         main.cpp
+#        main_filter.cpp
+#        main_all.cpp
         pitch/pitch.cpp
         pitch/pitch.h
         pitch/complex_defines.h
@@ -65,4 +67,4 @@ add_executable(
         webrtc/vad_sp.c
         webrtc/vector_scaling_operations.c
         webrtc/webrtc_vad.c
-)
+        main_all.cpp)

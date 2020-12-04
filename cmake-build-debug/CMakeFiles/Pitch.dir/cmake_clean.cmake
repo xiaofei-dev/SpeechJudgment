@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Pitch.dir/main.cpp.obj"
+  "CMakeFiles/Pitch.dir/main_all.cpp.obj"
   "CMakeFiles/Pitch.dir/pitch/pitch.cpp.obj"
   "CMakeFiles/Pitch.dir/pitch/resample.cpp.obj"
   "CMakeFiles/Pitch.dir/pitch/support_functions.cpp.obj"
